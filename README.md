@@ -24,7 +24,6 @@ sample  css for background animation:
 
 @keyframes moveBg {
   0% {
-    /* takes in x and y value */
     background-position: 0% 30%;
   }
   100% {
