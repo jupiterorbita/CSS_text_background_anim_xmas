@@ -14,3 +14,32 @@ body {
   justify-content: center; /* vertical center */
   text-align: center;
 }
+
+.animated {
+  font-family: "Charm", cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  background: url("img/text-bg.png") no-repeat;
+  /* to make the background foreground text */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* to animate */
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+/* Text Background Animation */
+@keyframes moveBg {
+  /* starting point */
+  0% {
+    /* takes in x and y value */
+    background-position: 0% 30%;
+  }
+  /* ending point */
+  100% {
+    background-position: 100% 50%;
+  }
+}
