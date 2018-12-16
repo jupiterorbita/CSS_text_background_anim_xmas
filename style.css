@@ -15,6 +15,10 @@ body {
   text-align: center;
 }
 
+p {
+  font-size: 2rem;
+}
+
 .animated {
   font-family: "Charm", cursive;
   margin: 0;
